@@ -1,25 +1,23 @@
-# Ansible Vagrant
+# Ansible Vagrant 
 
+This repository should contain example virtual machines running various application.
+
+## Project - MLW
+- Mgmt note & LoadBalancer web 1-3 interfaces
+- install Ansible on mgmt node
+- second one is load balancer
+- last two are web servers
+- examples contains Code Snippets
+- bootstrap-mgmt.sh - Install/Config Ansible & Deploy Code Snippets
+- https://sysadmincasts.com/episodes/45-learning-ansible-with-vagrant-part-2-4
 
 ## VagrantCloud
-## Provider: libvirt
-https://app.vagrantup.com/boxes/search?provider=libvirt
-https://app.vagrantup.com/ceph/boxes/ubuntu-xenial
+Provider: libvirt
+- https://app.vagrantup.com/boxes/search?provider=libvirt <br/>
+- https://app.vagrantup.com/ceph/boxes/ubuntu-xenial
 
-# Initial Vagrant
-sudo systemctl restart nfs-server.service
-vagrant up
+## Commands
+sudo systemctl restart nfs-server.service <br/>
+vagrant up <br/>
 
-
-#to overcome the authentication of host
-ssh-keyscan lb web1 web2 web3 >> .ssh/known_hosts_
-
-
-## VM Webs 
-- install 4 virtual machines
--- install Ansible on mgmt node
--- second one is load balancer
--- last two are web servers
--- examples contains Code Snippets
--- bootstrap-mgmt.sh - Install/Config Ansible & Deploy Code Snippets
 

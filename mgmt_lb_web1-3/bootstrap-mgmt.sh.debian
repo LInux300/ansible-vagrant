@@ -5,7 +5,7 @@
 #sudo apt-get install software-properties-common
 #sudo apt-add-repository ppa:ansible/ansible
 #sudo apt-get update
-#sudo apt-get install ansible
+#sudo apt-get install -y  ansible
 
 ## Debian - install ansible (http://docs.ansible.com/ansible/latest/intro_installation.html#latest-releases-via-apt-ubuntu)
 deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
